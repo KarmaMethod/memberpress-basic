@@ -1,6 +1,6 @@
 {
   "name": "karmamethod/memberpress-basic",
-  "description": "Memberpress Basic",
+  "description": "MemberPress Basic",
   "type": "wordpress-plugin",
   "require": {
     "php": ">=5.2",
