@@ -1,8 +1,19 @@
 {
-	"name": "wp-premium/memberpress-basic",
-	"autoload": {
-		"classmap": [
-			"app/"
-		]
-	}
+  "name": "karmamethod/memberpress-basic",
+  "description": "Memberpress Basic",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.2",
+    "composer/installers": "*"
+  },
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Evan Stein",
+      "email": "evan@karmamethod.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [ "classes/" ]
+  }
 }
